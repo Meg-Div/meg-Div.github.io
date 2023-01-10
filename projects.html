@@ -10,63 +10,60 @@
 
     <style>
 
- /* The background */ 
 
 
-body {
-  background-image: url("https://images.unsplash.com/photo-1488462237308-ecaa28b729d7?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=616&q=80");
-  background-repeat: no-repeat;
-  background-position: left top;
-  background-size: 1450px;
+/* For mobile: */
+
+@media (max-width: 480px) {
+
+    .topnav a {
+        display: inline-block;
+        font-size: 5px;
+        margin-right: 1rem;
+    }
+}
+/* For tablets: */
+
+@media (min-width: 481px) and (max-width: 1024px) {
+    .topnav a {
+        display: inline-block;
+        font-size: 13px;
+    }
 }
 
-/* The navbar */
+/* For desktop: */
+@media (min-width: 1025px) {
+
+    .topnav a {
+        display: inline-block;
+        font-size: 15px;
+    }
+}
+
+/* The navbar container */
 .topnav {
-  height: hidden;
   background-color: #333;
 }
 
+/* Navbar links */
 .topnav a {
-  float: center;
-  display: inline-block;
+  display: flex;
+  align-content: flex-start;
   color: #1eaab4;
-  text-align: justify;
   padding: 14px 16px;
   text-decoration: none;
 }
+
 .header {
   text-align: justify;
   padding: 14px 16px;
+  font: bold;
 }
 
+/* Links - change color on hover */
 .topnav a:hover {
   background-color: #1eaab4;
   color: rgb(3, 1, 1);
-}
-
-/* The text */
-
-.text {
-  word-wrap: break-word;
-  word-break: keep-all;
-  text-align: left;
-  padding: 8px 16px;
-  position: justify;
-  margin-top: 3%;
-  margin-left: 1%;
-
-}
-
-.text a {
-  color: #333;
-  text-decoration: none;
-  font-size: 30px;
-}
-
-.text a:hover {
-  color: white;
-  text-decoration: none;
-  font-size: 30px;
 }
 
 .title {
@@ -78,6 +75,10 @@ body {
   position: justify;
   left: 100px;
   top: 150px;
+}
+
+h1 {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 </style>
@@ -94,14 +95,24 @@ body {
 
 <div class="topnav">
   <a href="/">Home</a>
-  <a href="/about.html">About</a>
+  <a href="https://dev.to/megdiv">Blog</a>
   <a href="/projects.html">Projects</a>
-  <a href="mailto:MeganDivringi@Gmail.com">Contact</a>
+  <a href="/Meg_Divringi.pdf" download="Meg_Divringi.pdf">Download Resume</a>
 </div>
 
 <div class="title">
   <p></p>
-  <h1></h1>
+  <h1>Blackjack</h1>
+  <iframe frameborder="10" width="800px" height="680px" src="https://replit.com/@Meg-Div/Blackjack-21?embed=true"></iframe>
+  <br>
+  <br>
+  <h1>That's a hat!</h1>
+  <iframe frameborder="10" width="700px" height="700px" src="  https://replit.com/@Meg-Div/Thats-A-Hat?embed=true"></iframe>
+  <br>
+  <br>
+  <h1>Calculator</h1>
+  <iframe frameborder="10" width="300px" height="500px" src="https://replit.com/@Meg-Div/Calculator?embed=true"></iframe>
+
 </div>
 
 </body>
