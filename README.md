@@ -12,6 +12,14 @@ Blog:
 
 Projects: 
 
+- it's A Circus
+    - [GitHub](https://github.com/Meg-Div/ItsACircus)
+    - [Dev.to blog](https://dev.to/megdiv/its-a-circus-3jm8)
+    - Project Languages: 
+        * Javascript
+        * HTML
+        * CSS
+
 - Blackjack
     * [GitHub](https://github.com/Meg-Div/DigitalCraftsProjects/tree/main/blackjack)
     * [Dev.to blog](https://dev.to/megdiv/forever-21-268m)
