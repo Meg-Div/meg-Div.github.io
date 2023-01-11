@@ -17,9 +17,19 @@
 @media (max-width: 480px) {
 
     .topnav a {
-        display: inline-block;
-        font-size: 4px;
-        margin-right: 1rem;
+        display: flex;
+        flex-direction: column;
+        margin: 0px;
+        margin-right: 2rem;
+    }
+    #frame {
+      width:100%
+    }
+    #text {
+      inline-size: min-content;
+    }
+    #links {
+      inline-size: min-content;
     }
 }
 /* For tablets: */
@@ -29,11 +39,19 @@
         display: inline-block;
         font-size: 13px;
     }
+    #frame {
+      width:100%
+    }
+    #text {
+      inline-size: min-content;
+    }
+    #links {
+      inline-size: min-content;
+    }
 }
 
 /* For desktop: */
 @media (min-width: 1025px) {
-
     .topnav a {
         display: inline-block;
         font-size: 15px;
@@ -101,64 +119,64 @@ a {
 
   <br>
   <h1>It's A Circus</h1>
-  <a href="https://github.com/Meg-Div/ItsACircus">GitHub Repository</a>
+  <a id="links" href="https://github.com/Meg-Div/ItsACircus">GitHub Repository</a>
 |
-  <a href="https://dev.to/megdiv/its-a-circus-3jm8">Dev.to blog</a>
-  <p>
-    - Project Languages: 
+  <a id="links" href="https://dev.to/megdiv/its-a-circus-3jm8">Dev.to blog</a>
+  <p id="text">
+    - Languages: 
     Javascript | HTML | CSS
   </p>
-  <iframe frameborder="" style="border: 2px solid black" width="800px" height="500px" src="https://meg-div.github.io/ItsACircus/index.html"></iframe>
+  <iframe id="frame" style="border: 2px solid black" width="800px" height="560px" src="https://meg-div.github.io/ItsACircus/index.html"></iframe>
   <br>
   <br>
 
   <h1>Blackjack</h1>
-  <a href="https://github.com/Meg-Div/DigitalCraftsProjects/tree/main/blackjack">GitHub Repository</a>
+  <a id="links" href="https://github.com/Meg-Div/DigitalCraftsProjects/tree/main/blackjack">GitHub Repository</a>
 |
-  <a href="https://dev.to/megdiv/forever-21-268m">Dev.to blog</a>
-  <p>
-    - Project Languages: 
+  <a id="links" href="https://dev.to/megdiv/forever-21-268m">Dev.to blog</a>
+  <p id="text">
+    - Languages: 
     Javascript | HTML | CSS
   </p>
-  <iframe frameborder="10" width="800px" height="680px" src="https://replit.com/@Meg-Div/Blackjack-21?embed=true"></iframe>
+  <iframe id="frame" width="800px" height="590px" src="https://meg-div.github.io/blackjack"></iframe>
   <br>
   <br>
 
 
   <h1>That's a hat!</h1>
-  <a href="https://github.com/Meg-Div/DigitalCraftsProjects/tree/main/rpg-game">GitHub Repository</a>
+  <a id="links" href="https://github.com/Meg-Div/DigitalCraftsProjects/tree/main/rpg-game">GitHub Repository</a>
 |
-  <a href="https://dev.to/megdiv/thats-a-hat-57gn">Dev.to blog</a>
-  <p>
-    - Project Languages: 
+  <a id="links" href="https://dev.to/megdiv/thats-a-hat-57gn">Dev.to blog</a>
+  <p id="text">
+    - Languages: 
     Python
   </p>
-  <iframe frameborder="10" width="700px" height="700px" src="  https://replit.com/@Meg-Div/Thats-A-Hat?embed=true"></iframe>
+  <iframe id="frame" width="700px" height="700px" src="  https://replit.com/@Meg-Div/Thats-A-Hat?embed=true"></iframe>
   <br>
   <br>
 
 
   <h1>Calculator</h1>
-  <a href="https://github.com/Meg-Div/DigitalCraftsProjects/tree/main/calculator">GitHub Repository</a>
+  <a id="links" href="https://github.com/Meg-Div/DigitalCraftsProjects/tree/main/calculator">GitHub Repository</a>
 |
-  <a href="https://dev.to/megdiv/you-can-count-on-me-534j">Dev.to blog</a>
-  <p>
-    - Project Languages: 
+  <a id="links" href="https://dev.to/megdiv/you-can-count-on-me-534j">Dev.to blog</a>
+  <p id="text">
+    - Languages: 
     Javascript | HTML | CSS
   </p>
-  <iframe frameborder="10" width="300px" height="500px" src="https://replit.com/@Meg-Div/Calculator?embed=true"></iframe>
+  <iframe fid="frame" width="300px" height="500px" src="https://replit.com/@Meg-Div/Calculator?embed=true"></iframe>
   <br>
   <br>
 
   <h1>Magic 8 Ball</h1>
-<a href="https://github.com/Meg-Div/DigitalCraftsProjects/tree/main/Magic8Ball">GitHub Repository</a>
+<a id="links" href="https://github.com/Meg-Div/DigitalCraftsProjects/tree/main/Magic8Ball">GitHub Repository</a>
 |
-<a href="https://dev.to/megdiv/magic-8-ball-2p2h">Dev.to blog</a>
-<p>
-  - Project Languages: 
+<a id="links" href="https://dev.to/megdiv/magic-8-ball-2p2h">Dev.to blog</a>
+<p id="text">
+  - Languages: 
   C++
 </p>
-<iframe frameborder="10" width="500px" height="500px" src="https://replit.com/@Meg-Div/Magic-8-Ball?embed=true"></iframe>
+<iframe id="frame" width="500px" height="500px" src="https://replit.com/@Meg-Div/Magic-8-Ball?embed=true"></iframe>
 
 </div>
 </div>
