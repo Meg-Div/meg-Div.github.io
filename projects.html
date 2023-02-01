@@ -4,218 +4,243 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
-
     <style>
+      /* For mobile: */
+      @media (max-width: 480px) {
+        .topnav a {
+          display: flex;
+          flex-direction: column;
+          margin: 0px;
+          margin-right: 2rem;
+        }
 
+        #frame {
+          width: 100%
+        }
 
+        #text {
+          font-size: 9px;
+        }
 
-/* For mobile: */
+        #links {
+          inline-size: min-content;
+        }
 
-@media (max-width: 480px) {
+        #description {
+          display: none;
+        }
+      }
 
-    .topnav a {
-        display: flex;
-        flex-direction: column;
-        margin: 0px;
-        margin-right: 2rem;
-    }
-    #frame {
-      width:100%
-    }
-    #text {
-      inline-size: min-content;
-    }
-    #links {
-      inline-size: min-content;
-    }
-    #description {
-      display: none;
-    }
-}
-/* For tablets: */
+      /* For tablets: */
+      @media (min-width: 481px) and (max-width: 1024px) {
+        .topnav a {
+          display: inline-block;
+          font-size: 13px;
+        }
 
-@media (min-width: 481px) and (max-width: 1024px) {
-    .topnav a {
-        display: inline-block;
-        font-size: 13px;
-    }
-    #frame {
-      width:100%
-    }
-    #text {
-      inline-size: min-content;
-    }
-    #links {
-      inline-size: min-content;
-    }
-    #description {
-      display: none;
-    }
-}
+        #frame {
+          width: 100%
+        }
 
-/* For desktop: */
-@media (min-width: 1025px) {
-    .topnav a {
-        display: inline-block;
-        font-size: 15px;
-    }
-}
+        #text {
+          font-size: 15px;
+        }
 
-/* The navbar container */
-.topnav {
-  background-color: #333;
-  size-adjust: auto;
-}
+        #links {
+          inline-size: min-content;
+        }
 
-/* Navbar links */
-.topnav a {
-  color: #1eaab4;
-  padding: 14px 16px;
-  text-decoration: none;
-}
+        #description {
+          display: none;
+        }
+      }
 
-.header {
-  text-align: justify;
-  padding: 14px 16px;
-  font: bold;
-}
+      /* For desktop: */
+      @media (min-width: 1025px) {
+        .topnav a {
+          display: inline-block;
+          font-size: 15px;
+        }
+      }
 
-/* Links - change color on hover */
-.topnav a:hover {
-  background-color: #1eaab4;
-  color: rgb(3, 1, 1);
-}
+      /* The navbar container */
+      .topnav {
+        background-color: #333;
+        size-adjust: auto;
+      }
 
-.title {
-  color: 333;
-  padding: 8px 16px;
-}
+      /* Navbar links */
+      .topnav a {
+        color: #1eaab4;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
 
-h1 {
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  font: bold;
-}
-a {
-  text-decoration: none;
-}
+      .header {
+        text-align: justify;
+        padding: 14px 16px;
+        font: bold;
+      }
 
-#description {
-  max-width: 550px;
-  max-height: auto;
-}
+      /* Links - change color on hover */
+      .topnav a:hover {
+        background-color: #1eaab4;
+        color: rgb(3, 1, 1);
+      }
 
-</style>
-</head>
-<body>
+      .title {
+        color: 333;
+        padding: 8px 16px;
+      }
 
-<div class="header">
-  <p></p>
-  <p></p>
-  <p></p>
-  <h1>Meg Divringi</h1>
-  <p></p>
-</div>
+      h1 {
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font: bold;
+      }
 
-<div class="topnav">
-  <a href="/">Home</a>
-  <a href="/projects.html">Projects</a>
-  <a href="https://www.github.com/Meg-Div">GitHub</a>
-  <a href="https://www.linkedin.com/in/MegDivringi">Linkedin</a>
-  <a href="/Meg_Divringi.pdf" download="Meg_Divringi.pdf">Download Resume</a>
-</div>
+      a {
+        text-decoration: none;
+      }
 
-<div class="title">
+      #description {
+        max-width: 550px;
+        max-height: auto;
+      }
+    </style>
+  </head>
+  <body>
 
-  <br>
-  <h1>Vote</h1>
-  <p id="description">
+    <!-- Name -->
+    <div class="header">
+      <p></p>
+      <p></p>
+      <p></p>
+      <h1>Meg Divringi</h1>
+      <p></p>
+    </div>
 
-  A mobile voter website that allows users to create a personal account and log in to vote, and gives admins the additional ability to add, update, or delete new positions.
-</p>
-  <a id="links" href="https://github.com/Meg-Div/BackendProject">GitHub Repository</a>
-  |
-  <a id="links" href="https://dev.to/megdiv/vote-58eb">Dev.to blog</a>
+    <!-- Nav Bar -->
+    <div class="topnav">
+      <a href="/">Home</a>
+      <a href="/projects.html">Projects</a>
+      <a href="https://www.github.com/Meg-Div">GitHub</a>
+      <a href="https://www.linkedin.com/in/MegDivringi">Linkedin</a>
+      <a href="/Meg_Divringi.pdf" download="Meg_Divringi.pdf">Download Resume</a>
+    </div>
+    <div class="title">
 
-  <p id="text">
-    - Languages: 
-    Javascript | CSS | EJS
-  </p>
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/bfhh4Ibjlh0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-  <br>
-  <br>
+      <!-- vote -->
+      <br>
+      <h1><b>Vote</b></h1>
+      <a id="links" href="https://github.com/Meg-Div/BackendProject">GitHub Repository</a> | <a id="links" href="https://dev.to/megdiv/vote-58eb">Dev.to blog</a>
+      <p id="description"> Completed: <b> January, 2023 </b>
+        <br>
+        <br> A mobile voter website that allows users to create a personal account and log in to vote, and gives admins the additional ability to add, update, or delete new positions. <br>
+        <br>
+        <b>Role:</b> Member of a two person team. Project Manager, backend server development, HTTP routes
+      </p>
+      <p id="text">
+        <b> - Languages: </b>
+        <br> &nbsp; &nbsp; Javascript | CSS | EJS <br>
+        <b> - Technologies: </b>
+        <br> &nbsp; &nbsp; * ElephantSQL - PostgreSQL database hosting <br> &nbsp; &nbsp; * Beekeeper - Table management <br> &nbsp; &nbsp; * BCrypt - Password encrypting and comparing <br> &nbsp; &nbsp; * DBDesigner - Schema design
+      </p>
+      <iframe id="frame" width="560" height="315" src="https://www.youtube.com/embed/bfhh4Ibjlh0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      <br>
+      <br>
 
-  <h1>It's A Circus</h1>
-  <p id="description">
-    
-    While spending a day at the circus your age is guessed and then your fortune is told. Data pulled from public APIs.
-  </p>
-  <a id="links" href="https://github.com/Meg-Div/ItsACircus">GitHub Repository</a>
-|
-  <a id="links" href="https://dev.to/megdiv/its-a-circus-3jm8">Dev.to blog</a>
-  <p id="text">
-    - Languages: 
-    Javascript | HTML | CSS
-  </p>
-  <iframe id="frame" style="border: 2px solid black" width="800px" height="560px" src="https://meg-div.github.io/ItsACircus/index.html"></iframe>
-  <br>
-  <br>
+      <!-- It's A Circus -->
+      <h1><b>It's A Circus</b></h1>
+      <a id="links" href="https://github.com/Meg-Div/ItsACircus">GitHub Repository</a> | <a id="links" href="https://dev.to/megdiv/its-a-circus-3jm8">Dev.to blog</a>
+      <p id="description"> Completed: <b> December, 2023 </b>
+        <br>
+        <br> While spending a day at the circus your age is guessed and then your fortune is told. Data pulled from public APIs. <br>
+        <br>
+        <b>Role:</b> Design and implementation
+      </p>
+      <p id="text">
+        <b> - Languages: </b>
+        <br> &nbsp; &nbsp; Javascript | CSS | HTML <br>
+        <b> - Technologies: </b>
+        <br> &nbsp; &nbsp; * Tailwind - CSS framework
+      </p>
+      <iframe id="frame" style="border: 2px solid black" width="800px" height="560px" src="https://meg-div.github.io/ItsACircus/index.html"></iframe>
+      <br>
+      <br>
 
-  <h1>Blackjack</h1>
-  <p id="description">
-    
-    Recreation of a Blackjack game.
-  </p>
-  <a id="links" href="https://github.com/Meg-Div/DigitalCraftsProjects/tree/main/blackjack">GitHub Repository</a>
-|
-  <a id="links" href="https://dev.to/megdiv/forever-21-268m">Dev.to blog</a>
-  <p id="text">
-    - Languages: 
-    Javascript | HTML | CSS
-  </p>
-  <iframe id="frame" width="800px" height="590px" src="https://meg-div.github.io/blackjack"></iframe>
-  <br>
-  <br>
+      <!-- Blackjack -->
+      <h1><b>Blackjack</b></h1>
+      <a id="links" href="https://github.com/Meg-Div/DigitalCraftsProjects/tree/main/blackjack">GitHub Repository</a> | <a id="links" href="https://dev.to/megdiv/forever-21-268m">Dev.to blog</a>
+      <p id="description"> Completed: <b> December, 2023 </b>
+        <br>
+        <br> Recreation of a Blackjack game. <br>
+        <br>
+        <b>Role:</b> Design and implementation
+      </p>
+      <p id="text">
+        <b> - Languages: </b>
+        <br> &nbsp; &nbsp; Javascript | HTML | CSS <br>
+      </p>
+      <iframe id="frame" width="800px" height="590px" src="https://meg-div.github.io/blackjack"></iframe>
+      <br>
+      <br>
 
+      <!-- That's a hat! -->
+      <h1><b>That's a hat!</b></h1>
+      <a id="links" href="https://github.com/Meg-Div/DigitalCraftsProjects/tree/main/rpg-game">GitHub Repository</a> | <a id="links" href="https://dev.to/megdiv/thats-a-hat-57gn">Dev.to blog</a>
+      <br>
+      <p id="description"> Completed: <b> November, 2022 </b>
+        <br>
+        <br> A game that allows the user to purchase two hats of the user choice and the ability to eat or use the item pulled from the hat as a distraction in order to flee. <br>
+        <br>
+        <b>Role:</b> Design and implementation
+      </p>
+      <p id="text">
+        <b> - Languages: </b>
+        <br> &nbsp; &nbsp; Python <br>
+      </p>
+      <iframe id="frame" width="700px" height="700px" src="  https://replit.com/@Meg-Div/Thats-A-Hat?embed=true"></iframe>
+      <br>
+      <br>
 
-  <h1>Memory Game</h1>
-  <a id="links" href="https://github.com/Meg-Div/MemoryGame">GitHub Repository</a>
-  <p id="text">
-    - Languages: 
-    Javascript | HTML | CSS
-  </p>
-  <iframe id="frame" width="800px" height="500px" src="  https://meg-div.github.io/MemoryGame/"></iframe>
-  <br>
-  <br>
+      <!-- Magic 8 Ball -->
+      <h1><b>Magic 8 Ball</b></h1>
+      <a id="links" href="https://github.com/Meg-Div/DigitalCraftsProjects/tree/main/Magic8Ball">GitHub Repository</a> | <a id="links" href="https://dev.to/megdiv/magic-8-ball-2p2h">Dev.to blog</a>
+      <br>
+      <p id="description"> Completed: <b> June, 2022 </b>
+        <br>
+        <br> A game that allows the user to ask a magic 8 ball a question and to receive a response. <br>
+        <br>
+        <b>Role:</b> Design and implementation
+      </p>
+      <p id="text">
+        <b> - Languages: </b>
+        <br> &nbsp; &nbsp; C++ <br>
+      </p>
+      <iframe id="frame" width="500px" height="500px" src="https://replit.com/@Meg-Div/Magic-8-Ball?embed=true"></iframe>
+      <br>
+      <br>
 
+      <!-- Memory Game -->
+      <h1><b>Memory Game</b> </h1>
+      <a id="links" href="https://github.com/Meg-Div/MemoryGame">GitHub Repository</a>
+      <p id="description"> Completed: <b> June, 2021 </b>
+        <br>
+        <br> Recreation of a match game. <br>
+        <br>
+        <b>Role:</b> Design and co-implementation
+      </p>
+      <p id="text">
+        <b> - Languages: </b>
+        <br> &nbsp; &nbsp; Javascript | HTML | CSS <br>
+      </p>
+      <iframe id="frame" width="800px" height="500px" src="  https://meg-div.github.io/MemoryGame/"></iframe>
+      <br>
+      <br>
 
-<h1>That's a hat!</h1>
-<a id="links" href="https://github.com/Meg-Div/DigitalCraftsProjects/tree/main/rpg-game">GitHub Repository</a>
-|
-<a id="links" href="https://dev.to/megdiv/thats-a-hat-57gn">Dev.to blog</a>
-<p id="text">
-  - Languages: 
-  Python
-</p>
-<iframe id="frame" width="700px" height="700px" src="  https://replit.com/@Meg-Div/Thats-A-Hat?embed=true"></iframe>
-<br>
-<br>
-
-<h1>Magic 8 Ball</h1>
-<a id="links" href="https://github.com/Meg-Div/DigitalCraftsProjects/tree/main/Magic8Ball">GitHub Repository</a>
-|
-<a id="links" href="https://dev.to/megdiv/magic-8-ball-2p2h">Dev.to blog</a>
-<p id="text">
-  - Languages: 
-  C++
-</p>
-<iframe id="frame" width="500px" height="500px" src="https://replit.com/@Meg-Div/Magic-8-Ball?embed=true"></iframe>
-
-</div>
-</div>
-
-</body>
+    </div>
+    </div>
+  </body>
 </html>
-
