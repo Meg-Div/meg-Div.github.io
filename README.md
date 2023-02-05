@@ -1,53 +1,54 @@
-# My Portfolio
+# My Portfolio:
 
-Resume:
-- <a href="/Meg_Divringi.pdf" download="Meg_Divringi.pdf"> Download </a>
-
-<br>
-
-Blog:
-- <a href="https://dev.to/megdiv"> Dev.to </a>
+<h3><a href="/Meg_Divringi.pdf" download="Meg_Divringi.pdf"> Resume </a> </h3>
+<h3><a href="https://dev.to/megdiv">Blog </a> </h3>
 
 <br>
 
-Projects: 
+<h1> Projects:  </h1>
 
-- it's A Circus
+- Vote
+    - [GitHub](https://github.com/Meg-Div/BackendProject)
+    - [Dev.to article](https://dev.to/megdiv/vote-58eb)
+    - [Youtube walthrough](https://youtu.be/bfhh4Ibjlh0)
+    - Project Languages: 
+        * Javascript
+        * HTML
+        * EJS
+    - Technologies:
+        * ElephantSQL - PostgreSQL database hosting
+        * Sequelize - ORM
+        * Beekeeper - Table management
+        * BCrypt - Password encrypting and comparing
+        * DBDesigner - Schema design
+    - Role:
+        * Project Manager of a two person team
+		* Backend server development and routing
+		* Technical documentation
+<br>
+<br>
+
+- It's A Circus
     - [GitHub](https://github.com/Meg-Div/ItsACircus)
-    - [Dev.to blog](https://dev.to/megdiv/its-a-circus-3jm8)
+    - [Dev.to article](https://dev.to/megdiv/its-a-circus-3jm8)
     - Project Languages: 
         * Javascript
         * HTML
         * CSS
-
-- Blackjack
-    * [GitHub](https://github.com/Meg-Div/DigitalCraftsProjects/tree/main/blackjack)
-    * [Dev.to blog](https://dev.to/megdiv/forever-21-268m)
-    * [Replit](https://replit.com/@Meg-Div/Blackjack-21)
-    - Project Languages: 
-        * Javascript
-        * HTML
-        * CSS
-
-- Caculator
-    * [GitHub](https://github.com/Meg-Div/DigitalCraftsProjects/tree/main/calculator)
-    * [Dev.to blog](https://dev.to/megdiv/you-can-count-on-me-534j)
-    * [Replit](https://replit.com/@Meg-Div/Calculator#calculator.js)
-    - Project Languages: 
-        * Javascript
-        * HTML
-        * CSS
+    - Technologies:
+        * Tailwind - CSS framework
+    - Role:
+        * Design and implementation
+<br>
+<br>
 
 - RPG aka That's A Hat
     * [GitHub](https://github.com/Meg-Div/DigitalCraftsProjects/tree/main/rpg-game)
-    * [Dev.to blog](https://dev.to/megdiv/thats-a-hat-57gn)
+    * [Dev.to article](https://dev.to/megdiv/thats-a-hat-57gn)
     * [Replit](https://replit.com/@Meg-Div/Thats-A-Hat#main.py)
     - Project Languages: 
         * Python
-
-- Magic 8 Ball
-    * [GitHub](https://github.com/Meg-Div/DigitalCraftsProjects/tree/main/Magic8Ball)
-    * [Dev.to blog](https://dev.to/megdiv/magic-8-ball-2p2h)
-    * [Replit](https://replit.com/@Meg-Div/Magic-8-Ball)
-    - Project Languages: 
-        * C++
+    - Role:
+        * Design and implementation
+<br>
+<br>
